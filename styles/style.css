@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F6F7F8;
+}
+
+/* paleta de cores */
+:root{
+    --cor1: #FFFFFF;
+    --cor2: #F6F7F8;
+    --cor3: #000000;
+    --cor4: #FF3131; 
+    --cor5: #54CC0A;
+    --cor6: #FF3131;
+}
+
+.add-from-cart-btn, .remove-from-cart-btn {
+    border: 1px;
+    border-style: solid;
+    padding: 3px 8px;
+    width: 88px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.add-from-cart-btn:hover, .remove-from-cart-btn:hover {
+    transform: scale(1.02);
+}
+
+.add-from-cart-btn:active, .remove-from-cart-btn:active {
+    transform: scale(1.0);
+}
+
+.add-from-cart-btn {
+    color: var(--cor5);
+    border-color: var(--cor5);
+}
+
+.remove-from-cart-btn {
+    color: var(--cor4);
+    border-color: var(--cor4);
+}
+
+@media (max-width: 768px) {
+    .cart-btn-container {
+        display: flex;
+        flex-direction: column;
+    }   
+}
