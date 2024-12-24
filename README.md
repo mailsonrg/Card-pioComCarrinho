@@ -1,4 +1,4 @@
-![logo do projeto](https://imgur.com/a/AzVS8kS.png)
+![logo do projeto](https://imgur.com/tRrH7oX.png)
 
 # Nome do Projeto
 
